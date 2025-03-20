@@ -11,11 +11,18 @@
 header {
   display: flex;
   justify-content: space-around;
+  min-height: 100px;
+  align-items: center;
+
+  img {
+    padding: 1rem;
+  }
 
   .header-list {
     display: flex;
-    justify-content: space-around;
+    gap: 1.25rem;
     list-style: none;
+    vertical-align: middle;
   }
 
 }
