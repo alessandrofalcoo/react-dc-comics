@@ -48,12 +48,15 @@ export default function Footer() {
             </div>
             <div className="end-footer">
                 <button className="btn">SIGN-UP NOW!</button>
-                <p>FOLLOW US</p>
-                <img src="/img/footer-facebook.png" alt="" />
-                <img src="/img/footer-twitter.png" alt="" />
-                <img src="/img/footer-youtube.png" alt="" />
-                <img src="/img/footer-pinterest.png" alt="" />
-                <img src="/img/periscope.png" alt="" />
+                <div className="social">
+                    <p>FOLLOW US</p>
+                    <img src="/img/footer-facebook.png" alt="" />
+                    <img src="/img/footer-twitter.png" alt="" />
+                    <img src="/img/footer-youtube.png" alt="" />
+                    <img src="/img/footer-pinterest.png" alt="" />
+                    <img src="/img/periscope.png" alt="" />
+
+                </div>
             </div>
         </footer>
 
