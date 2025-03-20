@@ -1,0 +1,26 @@
+/* Reset Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-around;
+
+  .header-list {
+    list-style: none;
+  }
+
+}
+
+
+/* Main */
+
+
+
+/* Footer */
