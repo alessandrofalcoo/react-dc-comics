@@ -33,7 +33,7 @@ header {
 
 /* Main */
 main {
-  .main-content {
+  .jumbotron {
     display: flex;
     align-items: center;
     min-height: 150px;
@@ -57,8 +57,10 @@ main {
 
     div {
       display: flex;
+      justify-content: center;
       align-items: center;
       gap: 1rem;
+      width: 250px;
     }
 
     img {
