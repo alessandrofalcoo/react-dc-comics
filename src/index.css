@@ -78,11 +78,16 @@ footer {
   max-height: 500px;
   background-image: url(../public/img/footer-bg.jpg);
 
-  img {}
 
   .dc {
     display: flex;
     justify-content: space-around;
+
+    img {
+      position: relative;
+      bottom: 50px;
+      z-index: 1;
+    }
 
     .dc-lists {
       display: flex;
@@ -107,8 +112,10 @@ footer {
         list-style: none;
         color: white;
         font-size: large;
+        padding-bottom: 1rem;
 
         li {
+          padding-top: 0.5rem;
           color: var(--lists-color);
         }
       }
