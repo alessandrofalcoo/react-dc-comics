@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header>
-            <img className="logo" src="./img/dc-logo.png" alt="dc header logo" />
+            <img className="logo" src="/img/dc-logo.png" alt="dc header logo" />
             <nav>
                 <div>
                     <ul className="header-list">

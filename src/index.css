@@ -1,4 +1,4 @@
-/* Reset Rules */
+/* Common Rules */
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +6,9 @@
   font-family: 'Open Sans';
 }
 
+:root {
+  --color-dc: #0282f9;
+}
 
 /* Header */
 header {
@@ -22,14 +25,38 @@ header {
     display: flex;
     gap: 1.25rem;
     list-style: none;
-    vertical-align: middle;
+    font-weight: bold;
   }
 
 }
 
 
 /* Main */
+main {
+  .main-content {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    background-color: black;
+  }
 
+  h2 {
+    font-weight: bold;
+    color: white;
+    padding-left: 5rem;
+  }
+
+  .main-menu {
+    padding: 1rem;
+    background-color: var(--color-dc);
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      max-width: 50px;
+    }
+  }
+}
 
 
 /* Footer */
