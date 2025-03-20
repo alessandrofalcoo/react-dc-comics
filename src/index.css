@@ -13,6 +13,8 @@ header {
   justify-content: space-around;
 
   .header-list {
+    display: flex;
+    justify-content: space-around;
     list-style: none;
   }
 
