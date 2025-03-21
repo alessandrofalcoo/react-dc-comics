@@ -2,6 +2,8 @@ export default function Main() {
     return (
         <main>
             <div className="jumbotron">
+            </div>
+            <div className="jumbotron-content">
                 <h2> &rarr;	Content Goes here &larr; </h2>
 
             </div>
