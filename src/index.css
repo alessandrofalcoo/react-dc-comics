@@ -66,30 +66,33 @@ header {
 /* Main */
 main {
   .jumbotron {
-    height: 200px;
+    height: 300px;
     background-image: url(../public/img/jumbotron.jpg);
     background-size: cover;
   }
 
   .jumbotron-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     min-height: 150px;
     background-color: black;
 
     .cards-container {
-      display: flex;
-      justify-content: space-between;
       padding: 2rem;
+      width: calc(100% /12 * 2);
 
       .card {
+
+
         p {
           color: white;
           text-transform: uppercase;
         }
 
         img {
-          max-height: 150px;
+          width: 100%;
+          height: 190px;
         }
       }
     }
