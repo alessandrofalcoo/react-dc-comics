@@ -77,13 +77,23 @@ main {
     min-height: 150px;
     background-color: black;
 
-    h2 {
-      font-weight: bold;
-      color: white;
-      padding-left: 5rem;
+    .cards-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem;
+
+      .card {
+        p {
+          color: white;
+          text-transform: uppercase;
+        }
+
+        img {
+          max-height: 150px;
+        }
+      }
     }
   }
-
 
   .main-menu {
     height: 100%;
