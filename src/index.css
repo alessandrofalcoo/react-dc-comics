@@ -39,21 +39,30 @@ header {
     font-weight: bold;
     height: 100%;
 
+
     li {
       display: flex;
       align-items: center;
+
       height: 100%;
 
-      border-bottom: 5px solid white;
+      a {
+        display: flex;
+        align-items: center;
+        border-bottom: 5px solid white;
+        color: black;
+        text-decoration: none;
+        height: 100%;
 
-      &:hover {
-        color: var(--dc-color);
-        border-bottom: 5px solid var(--dc-color);
+        &:hover {
+          color: var(--dc-color);
+          border-bottom: 5px solid var(--dc-color);
+        }
       }
+
     }
 
   }
-
 }
 
 

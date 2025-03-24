@@ -1,4 +1,4 @@
-const navList = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOP']
+import navList from '../data/nav_links'
 export default function Header() {
     return (
         <header>
@@ -8,7 +8,7 @@ export default function Header() {
                 <ul className="header-list">
                     {navList.map((navEl) => (
 
-                        <li key={navEl}>{navEl}</li>
+                        <li key={navEl.id}><a href={navEl.link}>{navEl.title}</a></li>
                     )
                     )}
                 </ul>
