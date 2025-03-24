@@ -6,7 +6,7 @@ import navLinks from './data/nav_links.js'
 import Main from './components/Main.jsx'
 import comics from './data/comics.js'
 import Footer from './components/Footer.jsx'
-import footerLinks from './data/footer_links.js'
+import { firstList, secondList, thirdList, fourthList } from './data/footer_links.js'
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <>
       <Header navEl={navLinks} />
       <Main comic={comics} />
-      <Footer firstList={footerLinks} secondList={footerLinks} thirdList={footerLinks} fourthList={footerLinks} />
+      <Footer firstList={firstList} secondList={secondList} thirdList={thirdList} fourthList={fourthList} />
     </>
   )
 }
