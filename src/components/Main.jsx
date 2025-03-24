@@ -1,7 +1,5 @@
 import Card from './Card.jsx'
-import comics from '../data/comics.js'
-
-export default function Main() {
+export default function Main({ comic }) {
     return (
         <main>
             <div className="jumbotron">
@@ -11,7 +9,7 @@ export default function Main() {
                 </div>
             </div>
             <div className="main-content">
-                {comics.map((comic) => (
+                {comic.map((comic) => (
                     <Card key={comic.id} image={comic.thumb} title={comic.title} />
                 ))}
                 <div className='btn-container'>
