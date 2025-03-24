@@ -226,8 +226,18 @@ footer {
         padding-bottom: 1rem;
 
         li {
+
           padding-top: 0.5rem;
-          color: var(--lists-color);
+
+          a {
+            text-decoration: none;
+            color: var(--lists-color);
+
+            &:hover {
+              color: var(--dc-color);
+            }
+
+          }
         }
       }
     }
