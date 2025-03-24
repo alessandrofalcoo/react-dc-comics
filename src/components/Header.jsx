@@ -1,3 +1,4 @@
+const navList = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOP']
 export default function Header() {
     return (
         <header>
@@ -5,16 +6,11 @@ export default function Header() {
             <nav>
 
                 <ul className="header-list">
-                    <a href="#"><li>CHARACTERS</li></a>
-                    <a href="#"><li>COMICS</li></a>
-                    <a href="#"><li>MOVIES</li></a>
-                    <a href="#"><li>TV</li></a>
-                    <a href="#"><li>GAMES</li></a>
-                    <a href="#"><li>COLLECTIBLES</li></a>
-                    <a href="#"><li>VIDEOS</li></a>
-                    <a href="#"><li>FANS</li></a>
-                    <a href="#"><li>NEWS</li></a>
-                    <a href="#"><li>SHOP</li></a>
+                    {navList.map((navEl) => (
+
+                        <li key={navEl}>{navEl}</li>
+                    )
+                    )}
                 </ul>
 
 
